@@ -1,0 +1,95 @@
+.cajapimag {
+	max-width: 45%;
+	width: 100%;
+	float: left;
+	min-height: 200px;
+	height: 100%;
+	text-align: center;
+	background-color: #ffffff;
+	grid: grid;
+	grid-template-columns: column;
+ }
+ .card1 {
+ 	width: 27rem;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+	margin-top: 10%;
+	margin-left: 30%;
+	box-shadow: 3px 3px 4px 4px grey;
+	padding: 15px;
+	text-align: justify;
+ }
+ .card1 .boton1 a:hover{
+	color: #FFFFFF;
+ }
+ .card-body1 {
+	flex: 1 1 auto;
+	padding: 1rem 1rem;
+  }
+  .card-title1 {
+	margin-bottom: 0.5rem;
+  }
+
+
+  @media (max-width: 1024px) {
+   .card1 {
+      width: 80%;           
+      
+       margin-top: 5%;
+       grid-auto-flow: row;
+
+   }
+}
+
+
+  @media (max-width: 800px) {
+   .card1 {
+      width: 90%;           
+       margin-left: 15%;
+       margin-top: 5%;
+       grid-auto-flow: row;
+
+   }
+   .cajap{
+      margin-right: 10%;
+      max-width: 550px;
+
+   }
+}
+
+   @media (max-width: 425px) {
+   .cajapimag{ 
+      width: 100%;          
+       margin-right: 15%;
+       margin-top: 5%;
+       grid-auto-flow: row;
+   }
+   iframe{
+   	width: 100%;
+   }
+   .card1{
+   	width: 300px;
+
+   }
+   .cajap{
+      max-width: 90%;
+   }
+}
+
+@media (max-width: 320px) {
+   .cajapimag {   
+   margin-right: 15%;        
+       margin-top: 5%;
+       grid-auto-flow: row;
+   }
+    .card1{
+   	width: 220px;
+   }
+	}

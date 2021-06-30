@@ -1,0 +1,50 @@
+.cajap {
+
+    width: 100%;
+    min-height: 200px;
+    height: 100%;
+    text-align: center;
+    margin: 5px;
+    padding: 12px;
+    display: inline-block;
+
+}
+iframe{
+    float: left;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+.video{
+    margin-left: 20px;
+    padding-top:80px;
+    font-size: 33px;
+    color: #ef7f3f;
+    line-height: 10px;
+}
+.video1{
+    font-size: 20px;
+    line-height: 20px;
+
+}
+
+.video2{
+    font-size: 25px;
+    color: #ef7f3f;
+    line-height: 10px;
+}
+
+
+  @media (max-width: 1024px) {
+
+    .video{
+        line-height: 30px;
+    }
+  }
+
+  @media (max-width: 425px) {
+
+    .video{
+        line-height: 25px;
+    }
+  }

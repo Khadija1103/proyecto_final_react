@@ -1,0 +1,225 @@
+header {
+   width: 100%;
+   height: 10%;
+   display: grid;
+   grid-template-columns: 45% 55%;
+   background-color: #FFFFFF;
+  
+}
+.logo{
+	width: 530px;
+	padding: 0;
+}
+.logo img{
+   max-width: 530px;
+   width: 100%;
+}
+
+button {
+   float: right;
+   max-width: 120px;
+   width: 100%;
+   max-height: 42px;
+   height: 100%;
+   border-radius: 10%;
+   text-align: center;
+   line-height: 42px;
+   font-weight: bolder;
+}
+
+#botones{
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row-reverse;
+	padding-bottom: 90px;
+}
+
+.boton1 {
+   margin-top: 20px;
+   margin-right: 20px;
+   background-color: #ECE9CB;
+   border: 1px solid #DD5D26;
+   box-shadow: 1px 1px 4px black;
+   font-size: 1em;
+}
+.boton1 a {
+   color: #000000;
+   text-decoration: none;
+}
+.boton1:hover{
+   color: #FFFFFF;
+   background-color: #EF7F3F;
+   text-decoration: none;
+   border-radius: 5px;
+   width: 120px;
+   height: 42px;
+   border: 1px solid black;
+}
+
+.boton2 {
+   margin-top: 20px;
+   margin-right: 20px;
+   background: #EF7F3F;
+   color: #FFFFFF;
+   border: 1px solid black;
+   box-shadow: 1px 1px 4px black;
+   font-size: 1em;
+}
+.boton2 a {
+   color: #FFFFFF;
+   text-decoration: none;
+}
+.boton2:hover {
+   color: #000000;
+   background-color: #ECE9CB;
+   text-decoration: none;
+   border-radius: 5px;
+   width: 120px;
+   height: 42px;
+   border: 1px solid #DD5D26;
+}
+
+
+
+.boton3 {
+   margin: 5% 27% 15% 0;
+   background: #EF7F3F;
+   color: #FFFFFF;
+   border: 1px solid black;
+   box-shadow: 1px 1px 4px black;
+   font-size: 1em;
+}
+.boton3 a {
+   color: #FFFFFF;
+   text-decoration: none;
+}
+.boton3:hover {
+   color: #000000;
+   background-color: #ECE9CB;
+   text-decoration: none;
+   border-radius: 5px;
+   width: 120px;
+   height: 42px;
+   border: 1px solid #DD5D26;
+}
+
+
+
+
+
+/*ESTILOS MODALES******************************************/
+
+.close{
+   color: #000000;
+   font-size: 2em;
+   margin-left: 120px;
+   position: absolute;
+}
+
+.titulomodal{
+   margin-top: 30px;
+   font-size: 1.5em;
+   color: #EF7F3F;
+}
+
+.modal-content{
+   margin: 35% 25%;
+   max-width: 320px;
+   width: 100%;
+   height: 100%;
+   border: 3px solid #EF7F3F;
+   box-shadow: 1px 3px 3px black;
+   border-radius: 30px;
+   background-color:transparent;
+   
+}
+
+.formulario{
+   background-image: url("../../assets/images/images3.jpg");
+   background-size: cover;
+   background-color: #FFFFFF;
+   width: 100%;
+   height: 500px;
+   text-align: center;
+   margin: auto;
+   margin-top: 50px;
+   padding: 30px;
+   border: 3px solid #EF7F3F;
+   box-shadow: 1px 3px 3px black;
+   border-radius: 30px;
+}
+
+
+
+#exampleInputEmail1{
+   background-image: url("../../assets/images/usuario.png");
+   background-repeat: no-repeat;
+   background-position: 0.5rem center;
+   border: 1px solid black;
+   box-shadow: 0.5px 1px 5px black;
+   max-height: 30px;
+   margin-bottom: none;
+}
+#exampleInputPassword1{
+   background-image: url("../../assets/images/padlock2.png");
+   background-repeat: no-repeat;
+   background-position: 0.5rem center;
+   border: 1px solid black;
+   box-shadow: 0.5px 1px 5px black;
+   max-height: 30px;
+
+}
+
+.form-control{
+   padding-left: 40px;
+}
+
+.olvide {
+   color: black;
+   margin-top: 50px;
+   text-decoration: none;
+}
+
+
+
+@media screen and (max-width:768px){
+	#botones{
+		padding: 0px 0px 40px 0px ;
+		width: 100%;
+}
+.logo img{
+   max-width: 400px;
+   width: 100%;
+}
+}
+
+@media screen and (max-width:425px){
+	#botones{
+		padding: 15px 25px ;
+      width: 17rem;
+      margin: auto;
+}
+.logo {
+   max-width: 300px;
+   width: 100%;
+}
+.logo img{
+   max-width: 100%;
+   
+}
+header{
+	margin-left: 10px;
+   display: block;
+}
+ .formulario{
+   width: 100%;
+   height: auto;
+   }
+}
+
+
+@media screen and (max-width:320px){
+  
+
+
+}

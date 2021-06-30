@@ -1,0 +1,179 @@
+
+.active{
+     font-size: 1em; 
+    font-weight: bolder;
+    background-color: #EF7F3F;
+    padding: 5px 15px 8px 15px;
+    color: #FFFFFF;
+
+}
+
+
+nav {
+   clear: both;
+   width: 100%;
+   height: 8vh;
+   background-color: #FFFFFF;
+   margin: auto;
+   color: #000000;
+   border-top: #EF7F3F solid 1px;
+   border-bottom: #EF7F3F solid 1px;
+}
+
+
+nav ul li {
+   display: inline-block;
+   max-width: 190px;
+   width: 100%;
+   text-align: center;
+   line-height: 45px;
+   color: #000000;
+   text-decoration: none;
+   font-size: 1.2em;
+   font-weight: bolder;
+}
+
+
+nav ul li:hover {
+   display: inline-block;
+   max-width: 190px;
+   width: 100%;
+   text-align: center;
+   line-height: 45px;
+   background-color: #EF7F3F;
+   color: #000000;
+   text-decoration: none;
+}
+
+nav ul li a {
+    max-width: 190px;
+    width: 100%;
+    color: #000000;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+nav ul li a:hover {
+    max-width: 190px;
+    width: 100%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.submenu {
+   position: absolute;
+   background-color: transparent;
+   visibility: hidden;
+   opacity: 0;
+   max-width: 190px;
+   width: 100%;
+   color: #000000;
+   border-radius: 10px;
+   margin: auto;
+}
+.submenu li a {
+   display: block;
+   color: #ffffff;
+   background-color: #EF7F3F;
+}
+.submenu li a:hover {
+   color: #000000;
+   background-color: #ECE9CB;
+   transition: background-color 2s;
+}
+.menu li:hover .submenu {
+   visibility: visible;
+   opacity: 1;
+   transition: opacity 3s;
+}
+
+
+
+@media (max-width: 768px) {
+  
+   nav{
+      min-height: 9vh;
+   }
+    nav ul li {
+   display: inline-block;
+   width: 172px;
+   height: 7vh;
+   text-align: center;  
+   color: #000000;
+   text-decoration: none;
+   margin: none;
+   font-size: 0.6em;
+
+   }
+   nav ul li a{
+      font-size: 1.5em;
+   }
+
+ }
+
+
+@media (max-width: 425px) {
+ nav {
+   margin-left: 10px;
+   height: auto;
+
+ }
+}
+
+@media (max-width: 425px) {
+   nav ul {
+      margin-left: 25%;
+   }
+ }
+
+
+@media (max-width: 320px) {
+   nav ul {
+      margin-left: 15%;
+   }
+
+}
+
+
+
+@media (max-width: 768px){
+
+  .submenu {
+   position: static;
+   display: none;
+}
+   .menu li:hover .submenu{
+   visibility: visible;
+   opacity: 1;
+   transition: opacity 3s;
+   display: block;
+}
+}
+
+
+@media (max-width: 425px){
+  .submenu {
+   position: static;
+   display: none;
+}
+   .menu li:hover .submenu{
+   visibility: visible;
+   opacity: 1;
+   transition: opacity 3s;
+   display: block;
+}
+
+}
+
+
+@media (max-width: 320px){
+  .submenu {
+   position: static;
+   display: none;
+}
+   .menu li:hover .submenu{
+   visibility: visible;
+   opacity: 1;
+   transition: opacity 3s;
+   display: block;
+}
+}

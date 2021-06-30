@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+#nosotros{
+   background-color: #FFFFFF;
+   width: 100%;
+
+}
+.row{
+   display: flex;
+   width: 100%;
+
+}
+
+#nosotros h1{
+   font-family: Helvetica,  sans-serif;
+   text-align: center ;
+   padding-top: 50px ;
+   color: #EF7F3F ;
+   font-size: 25px;
+   font-weight: bolder;
+}
+
+.card{
+
+width: 100%;
+display: inline-block;
+background-color: #FFFFFF;
+border:none;
+}
+
+.card-title{
+   font-weight: bolder;
+   margin-bottom: none;
+}
+ .card-body{
+   font-family: Helvetica, sans-serif;
+   max-width: 370px;
+   width: 100%;
+   min-height: 560px;
+   height: 100%;
+   text-align: justify;
+   margin: 35px 0px 100px 25px;
+   border-bottom: 4px solid #EF7F3F;
+   border-top: 4px solid #EF7F3F;
+   padding: 20px 20px 0 20px;
+   float: left;
+   line-height: 18px;
+
+}
+
+
+ img{
+   max-width: 280px;
+   width: 100%;
+   display: flex;
+   margin: auto;
+   border-radius: 10px;
+}
+
+.card-body p{
+
+  width: 100%;
+  margin: auto;
+}
+
+
+
+h2{
+   margin-top: 25px;
+   text-align:center;
+   font-size: 1.5em;
+}
+
+@media (max-width: 1024px) {
+   #nosotros{
+      width: 100%;
+   }
+   .card{
+      width: 100%;
+
+   }
+ .card-body{
+      width: 90%;
+      height: auto;
+      justify-content: center;
+   }
+   h2{
+      font-size: 1em;
+   }
+}
+
+@media (max-width: 425px) {
+  #nosotros  {
+      margin-left: 10px;
+   }
+   .row{
+      flex-direction: column;
+   }
+    .card-body{
+      width: 100%;
+      height: auto;
+ }
+
+}
