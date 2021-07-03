@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/proyecto_final_react/static/css/main.2d708ddc.chunk.css",
+    "main.js": "/proyecto_final_react/static/js/main.fb71712e.chunk.js",
+    "main.js.map": "/proyecto_final_react/static/js/main.fb71712e.chunk.js.map",
+    "runtime-main.js": "/proyecto_final_react/static/js/runtime-main.56d231eb.js",
+    "runtime-main.js.map": "/proyecto_final_react/static/js/runtime-main.56d231eb.js.map",
+    "static/js/2.bdaba623.chunk.js": "/proyecto_final_react/static/js/2.bdaba623.chunk.js",
+    "static/js/2.bdaba623.chunk.js.map": "/proyecto_final_react/static/js/2.bdaba623.chunk.js.map",
+    "static/js/3.0e77fae7.chunk.js": "/proyecto_final_react/static/js/3.0e77fae7.chunk.js",
+    "static/js/3.0e77fae7.chunk.js.map": "/proyecto_final_react/static/js/3.0e77fae7.chunk.js.map",
+    "index.html": "/proyecto_final_react/index.html",
+    "static/css/main.2d708ddc.chunk.css.map": "/proyecto_final_react/static/css/main.2d708ddc.chunk.css.map",
+    "static/js/2.bdaba623.chunk.js.LICENSE.txt": "/proyecto_final_react/static/js/2.bdaba623.chunk.js.LICENSE.txt",
+    "static/media/404.1f7767be.png": "/proyecto_final_react/static/media/404.1f7767be.png",
+    "static/media/carpenter-4015109_640.ab9da483.jpg": "/proyecto_final_react/static/media/carpenter-4015109_640.ab9da483.jpg",
+    "static/media/curso-peluqueria.2b23342d.jpg": "/proyecto_final_react/static/media/curso-peluqueria.2b23342d.jpg",
+    "static/media/educAccion3.7af97f00.png": "/proyecto_final_react/static/media/educAccion3.7af97f00.png",
+    "static/media/estudio.b0d892bb.webp": "/proyecto_final_react/static/media/estudio.b0d892bb.webp",
+    "static/media/estudio2.a345b851.webp": "/proyecto_final_react/static/media/estudio2.a345b851.webp",
+    "static/media/img1.1aa87e1a.jpg": "/proyecto_final_react/static/media/img1.1aa87e1a.jpg",
+    "static/media/img2.a28e229e.jpg": "/proyecto_final_react/static/media/img2.a28e229e.jpg",
+    "static/media/img3.11789068.jpg": "/proyecto_final_react/static/media/img3.11789068.jpg",
+    "static/media/targ.6e6f2232.png": "/proyecto_final_react/static/media/targ.6e6f2232.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56d231eb.js",
+    "static/js/2.bdaba623.chunk.js",
+    "static/css/main.2d708ddc.chunk.css",
+    "static/js/main.fb71712e.chunk.js"
+  ]
+}
